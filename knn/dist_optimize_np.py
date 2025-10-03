@@ -1,5 +1,6 @@
 '''
 Optimized distance matrix finding for KNN
+uses ||x - y||2 = sqrt(x.T * x  - 2 * x.T * y + y.T * y)
 '''
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
